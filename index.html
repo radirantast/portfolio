@@ -5,30 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>React App</title>
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet" />
+    <script defer src="study.js"></script>
 </head>
-  <body>
-      <noscript>You need to enable JavaScript to run this app.</noscript>
-      <div id="root"></div>
-      
-      <div class="navbar">
-          <a class="active" href="#home">Home</a>
-          <a href="#news">My projects</a>
-          <a href="#contact">Contact</a>
-          <a class="header"></a>
-          <a class="sun">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /></svg>
-          </a>
-          <button class="btn">About me</button>
-      </div>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
 
-      <div>
-          <center><img src="forproject.jpg" class="image_footer"/></center>
-          <h1 class="h1_footer">i am front-end web-developer</h1>
-          <p>
-              Highly skilled and dedicated <strong>JavaScript, HTML, and CSS</strong> developer with [X] 
-              years of experience in creating interactive and visually appealing web applications. Seeking a
-              challenging position to utilize my expertise in front-end development and contribute to the success of an innovative organization.
-          </p>
-      </div>
+    <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">My projects</a>
+        <a href="#contact">Contact</a>
+        <a class="header txtp"></a>
+        <a class="sun">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /></svg>
+        </a>
+        <button class="btn">About me</button>
+    </div>
+
+    <div class="animatePage">
+        <center class="animate-image"><img src="forproject.jpg" class="image_footer" /></center>
+        <h1 class="h1_footer">front-end web-developer</h1>
+        <p class="paragraph_footer">
+            Highly skilled and dedicated <strong>JavaScript, HTML, and CSS</strong> developer <strong>
+                with 1 year
+            </strong> of experience in creating interactive and visually appealing web applications. Seeking a
+            challenging position to utilize my expertise in front-end development and contribute to the success of an innovative organization.
+        </p>
+        <button class="btn_footer">Let's see</button>
+    </div>
+
+    <center><img src="https://github.com/radirantast/portfolio/blob/main/test2.jpg?raw=true" class="image_myprojects animateOnScroll" /></center>
+
+    <div class="padding_myprojects animateOnScroll">
+        <h3 class="h3_myprojects">My first project</h3>
+        <a href="https://github.com/radirantast/mycssproject" target="_blank"><h1 class="h1_myprojects">Test project<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="link_icon"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" /></svg></h1></a>
+        <p class="paragraph_myprojects">
+            The test project I developed exemplifies my proficiency in <strong>HTML, CSS, and JavaScript</strong>. It is a static and
+            visually appealing web application that showcases modern design trends and utilizes cutting-edge technologies.
+        </p>
+        <p class="paragraph_myprojects">
+            By leveraging frameworks like React.js, Angular, or Vue.js, I created interactive components
+            and implemented data manipulation tasks, resulting in a polished and error-free application
+            This project serves as a testament to my passion for front-end development and my dedication to delivering high-quality work.
+        </p>
+    </div>
 </body>
 </html>
